@@ -54,7 +54,7 @@ nav {
 }
 
 .welcome-section {
-  height: 100vh;
+  height: 120vh;
   background-color: var(--black);
   flex-direction: column;
 }
@@ -63,7 +63,7 @@ nav {
   background-image: linear-gradient(150.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 100%), url(fotos/Chemex.JPG);
   background-size: cover;
   background-repeat: no-repeat;
-  flex-basis: 85%;
+  flex-basis: 100vh;
   align-items: center;
   justify-content: flex-end;
   height: 100%;
