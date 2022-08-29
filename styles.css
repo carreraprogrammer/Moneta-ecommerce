@@ -1,0 +1,119 @@
+*,
+*::after,
+*::before {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.fl-box {
+  display: flex;
+}
+
+/* starts the welcome section */
+
+nav {
+  width: 100%;   
+  height: 50px;
+  align-items: center;
+  background-color: #1d1d1d;
+  position: fixed;
+  top: 0;
+}
+
+.menu-container {
+  width: 50%;
+  flex-basis: 50%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 17px;
+  margin-right: 5%;
+  color: #6d0022;
+}
+
+#burguer-menu {
+  padding: 8px;
+  background-color: #6d002220;
+  border-radius: 10px;
+}
+
+.logo-container {
+  flex-basis: 50%;
+  width: 50%;
+  height: 100%;
+  object-fit: contain;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.welcome-section {
+  height: 100vh;
+  background-color: #1d1d1d;
+  flex-direction: column;
+}
+
+.front-page {
+  background-image: url(fotos/Chemex.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-basis: 85%;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.front-page img {
+  width: 200px;
+  height: 100px;
+  margin-right: 5%;
+}
+
+.front-page h1 {
+  color: #f4f5f0;
+  margin-right: 5%;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: right;
+  font-family: 'Nunito', sans-serif;
+}
+
+.btn-container {
+  flex-basis: 15%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-container i {
+  color: #ea984e;
+  font-size: 30px;
+}
+
+.btn {
+  height: 61px;
+  width: 239px;
+  border-radius: 30px;
+  color: #f4f5f0;
+  background-color: #6d0022;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+main {
+  height: 100vh;
+}
+
+.main-title {
+  margin-top: 20%;
+  text-align: center;
+  margin-bottom: 18px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.divisor-1 {
+  width: 90%;
+  margin-left: 5%;
+}
