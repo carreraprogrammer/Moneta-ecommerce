@@ -65,7 +65,7 @@ nav {
   background-repeat: no-repeat;
   flex-basis: 85%;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   height: 100%;
   width: 100%;
   flex-direction: column;
@@ -84,7 +84,15 @@ nav {
   font-weight: 400;
   text-align: right;
   font-family: 'Amaranth', sans-serif;
-  margin-bottom: 50px;
+  margin-bottom: 24px;
+}
+
+.front-page p {
+  font-size: 18px;
+  color: var(--white);
+  margin-right: 5%;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
 }
 
 .btn-container {
