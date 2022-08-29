@@ -65,7 +65,7 @@ nav {
   background-repeat: no-repeat;
   flex-basis: 85%;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   height: 100%;
   width: 100%;
   flex-direction: column;
@@ -93,6 +93,7 @@ nav {
   margin-right: 5%;
   font-family: 'Nunito', sans-serif;
   text-align: center;
+  margin-bottom: 24px;
 }
 
 .btn-container {
