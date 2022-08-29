@@ -10,13 +10,20 @@ padding: 0;
   display: flex;
 }
 
+:root {
+    --black: #1d1d1d;
+    --yellow: #ea984e;
+    --red: #6d0022;
+    --white: #f4f5f0;
+}
+
 /* starts the welcome section */
 
 nav {
   width: 100%;   
   height: 50px;
   align-items: center;
-  background-color: #1d1d1d;
+  background-color: var(--black);
   position: fixed;
   top: 0;
 }
@@ -28,7 +35,7 @@ nav {
   justify-content: flex-end;
   font-size: 17px;
   margin-right: 5%;
-  color: #6d0022;
+  color: var(--red);
 }
 
 #burguer-menu {
@@ -48,17 +55,17 @@ nav {
 
 .welcome-section {
   height: 100vh;
-  background-color: #1d1d1d;
+  background-color: var(--black);
   flex-direction: column;
 }
 
 .front-page {
-  background-image: url(fotos/Chemex.JPG);
+  background-image: linear-gradient(150.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 100%), url(fotos/Chemex.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   flex-basis: 85%;
-  align-items: flex-end;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
   height: 100%;
   width: 100%;
   flex-direction: column;
@@ -76,7 +83,8 @@ nav {
   font-size: 30px;
   font-weight: 400;
   text-align: right;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Amaranth', sans-serif;
+  margin-bottom: 50px;
 }
 
 .btn-container {
@@ -87,7 +95,7 @@ nav {
 }
 
 .btn-container i {
-  color: #ea984e;
+  color: var(--yellow);
   font-size: 30px;
 }
 
@@ -96,26 +104,136 @@ nav {
   width: 54vw;
   border-radius: 30px;
   color: #f4f5f0;
-  background-color: #6d0022;
+  background-color: var(--red);
   border: none;
   cursor: pointer;
   font-size: 16px;
 }
 
-main {
-  height: 100vh;
-}
+/* Here starts the services section */
 
 .main-title {
   margin-top: 20%;
   text-align: center;
   margin-bottom: 18px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Amaranth', sans-serif;
   margin-top: 120px;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .divisor-1 {
   width: 90%;
   margin-left: 5%;
+}
+
+.menu {
+  flex-direction: column;
+  margin-top: 80px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.menu-placeholder {
+  width: 100%;
+  height: 240px;
+  background-color: var(--red);
+  object-fit: fill;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-img {
+    width: 80%;
+    height: 80%;
+}
+.menu-title {
+  font-size: 2rem;
+  font-family: 'Amaranth', sans-serif;
+  margin-top: 20px;
+}
+
+.menu-description {
+  font-size: 1rem;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 20px;
+}
+
+.menu-btn {
+  color: var(--white);
+  font-size: 17px;
+  background-color: var(--red);
+  border-radius: 5px;
+  height: 48px;
+  width: 128px;
+  font-family: 'Nunito', sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.menu-btn:hover {
+  color: black;
+  background-color: var(--yellow);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 120px;
+}
+
+.service-card {
+  max-width: 90%;
+  height: 530px;
+  overflow: hidden;
+  margin-left: 5%;
+  margin-top: 70px;
+  border: 3px solid var(--yellow);
+  margin-top: 24px;
+}
+
+.img-card-container {
+  height: 60%;
+}
+
+.img-card {
+  height: 100%;
+  min-width: 100%;
+}
+
+.card-title {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Amaranth', sans-serif;
+}
+
+.card-description {
+  margin-top: 16px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.btn-card-container {
+  width: 100%;
+  justify-content: center;
+}
+
+.card-btn {
+  color: var(--white);
+  font-size: 17px;
+  background-color: var(--red);
+  border-radius: 5px;
+  height: 48px;
+  width: 150px;
+  font-family: 'Nunito', sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-weight: 700;
 }
