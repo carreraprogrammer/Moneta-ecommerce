@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 ​
-# Portfolio: Setup and movile first
+# Moneta e-commerce Setup and movile first
   
-> iin this project I:
+> In this project: 
 
 - I create an coffe shop ecommerce using best practices of code​
 ​
