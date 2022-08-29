@@ -92,8 +92,8 @@ nav {
 }
 
 .btn {
-  height: 61px;
-  width: 239px;
+  height: 14.7vw;
+  width: 54vw;
   border-radius: 30px;
   color: #f4f5f0;
   background-color: #6d0022;
@@ -111,6 +111,8 @@ main {
   text-align: center;
   margin-bottom: 18px;
   font-family: 'Nunito', sans-serif;
+  margin-top: 120px;
+  font-size: 30px;
 }
 
 .divisor-1 {
