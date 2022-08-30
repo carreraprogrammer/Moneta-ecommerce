@@ -198,7 +198,7 @@ nav {
 
 .service-card {
   max-width: 90%;
-  height: 530px;
+  height: 550px;
   overflow: hidden;
   margin-left: 5%;
   margin-top: 70px;
@@ -227,6 +227,7 @@ nav {
   margin-top: 16px;
   margin-left: 12px;
   margin-right: 12px;
+  text-align: center;
 }
 
 .btn-card-container {
